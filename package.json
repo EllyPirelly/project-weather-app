@@ -1,0 +1,15 @@
+{
+    "name": "parcel-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "",
+    "license": "ISC",
+    "description": "todo",
+    "devDependencies": {
+        "parcel-bundler": "^1.12.5",
+        "sass": "^1.32.8"
+    },
+    "dependencies": {
+        "img": "^3.0.3"
+    }
+}
