@@ -2,19 +2,20 @@
 
 ## What is this about?
 A weather app, fetching data from [OpenWeatherMap](https://openweathermap.org/api)
-- sign up to OpenWeatherMap to get an API key (it's free)
+- sign up to OpenWeatherMap to get an API key
+- sign up is free, at point of writing [60 calls per minute is free, see pricing](https://openweathermap.org/price)
 - [OpenWeatherMap FAQs](https://openweathermap.org/faq)
 - [OpenWeatherMap current data](https://openweathermap.org/current)
 
-### Visuals
+### Visuals - what you get with this code
 480px
 ![480px](./img/screenshots/weatherApp-480.png)
 640px
 ![640px](./img/screenshots/weatherApp-640.png)
 
-### Requirements
+### My requirements
 - language english
-- should show weather of **fixed** location (Tiergarten, Berlin, Germany) which is pretty close to my exact location)
+- show weather of **fixed** location (Tiergarten, Berlin, Germany) which is pretty close to my exact location)
 - based on that location, fetch/show
     - weather icon(s)
     - temperature, with possibility to toggle between °F and °C
@@ -26,10 +27,10 @@ A weather app, fetching data from [OpenWeatherMap](https://openweathermap.org/ap
 
 ### Tech
 - HTML, SCSS, JavaScript, [parcel.js](https://parceljs.org/)
-- responsive (340px min width)
-- one content shift at 640px width
+- responsive (340px min width), one content shift at 640px width
 - Flexbox and CSS Grid
-- prepared svgs re: colors
+- search and prepare [sunrise/sunset svgs](https://fontawesome.com/icons) regarding colors
+- search and prepare weather icons to use other ones than [the ones offered on OpenWeatherMap](https://openweathermap.org/weather-conditions#Weather-Condition-Codes-2)
 
 ### How to run this?
 
@@ -43,12 +44,10 @@ A weather app, fetching data from [OpenWeatherMap](https://openweathermap.org/ap
 
 ### Research starting point sources
 **main**
-- [Video - Code Explained: Build A Weather App Using JavaScript](https://www.youtube.com/watch?v=KqZGuzrY9D4)
-- [Source code to download](https://www.codeexplained.org/2020/06/Build-A-Weather-App-Using-JavaScript.html)
-- [Weather Icons](https://github.com/manifestinteractive/weather-underground-icons)
-**second**
-- [Video - Tyler Potts: Build a Weather app using HTML, CSS & JavaScript in 2020](https://www.youtube.com/watch?v=n4dtwWgRueI)
-- [Source code on GitHub](https://github.com/TylerPottsDev/weather-app-js)
+- [video - Code Explained: Build A Weather App Using JavaScript](https://www.youtube.com/watch?v=KqZGuzrY9D4)
+- [source code to download](https://www.codeexplained.org/2020/06/Build-A-Weather-App-Using-JavaScript.html)
+- [original source for Weather Icons to download](https://github.com/manifestinteractive/weather-underground-icons) (for dynamic exchange, depending on weather)<br>
 
-## Todo
-- delete translations DE as this should only be a GB version
+**second**
+- [video - Tyler Potts: Build a Weather app using HTML, CSS & JavaScript in 2020](https://www.youtube.com/watch?v=n4dtwWgRueI)
+- [source code on GitHub](https://github.com/TylerPottsDev/weather-app-js)
